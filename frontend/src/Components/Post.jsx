@@ -29,21 +29,21 @@ class Post extends Component {
   };
 
   render() {
-    const { post, author } = this.state;
+    const { Post, Author } = this.state;
     return (
       <div>
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
             name="post"
-            value={post}
+            value={Post}
             onChange={this.changeHandler}
           ></input>
           <br /> <br />
           <input
             type="text"
             name="author"
-            value={author}
+            value={Author}
             onChange={this.changeHandler}
           ></input>
           <button type="submit">Post</button>

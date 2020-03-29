@@ -11,15 +11,3 @@ class PostsViewSet(viewsets.ModelViewSet):
     queryset = Posts.objects.all()
     serializer_class = PostsSerializer
     permission_classes = [permissions.IsAuthenticated]
-
-
-class LoginViewSet(viewsets.ModelViewSet):
-    queryset = Login.objects.all()
-    serializer_class = LoginSerializer
-    permission_classes = [permissions.IsAuthenticated]
-
-
-class RegisterViewSet(viewsets.ModelViewSet):
-    queryset = Register.objects.all()
-    serializer_class = RegisterSerializer
-    permission_classes = [permissions.IsAuthenticated]

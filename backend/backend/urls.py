@@ -5,11 +5,7 @@ from Data import views
 
 router = routers.DefaultRouter()
 router.register(r'posts', views.PostsViewSet)
-router.register(r'login', views.LoginViewSet)
-router.register(r'register', views.RegisterViewSet)
 
-# Wire up our API using automatic URL routing.
-# Additionally, we include login URLs for the browsable API.
 
 urlpatterns = [
     path('admin/', admin.site.urls),

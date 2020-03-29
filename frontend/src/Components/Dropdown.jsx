@@ -1,15 +1,22 @@
 import React, { Component } from "react";
 import "../Style/main.css";
-import { Link } from 'react-router-dom';
+import fire from "../config/fire";
 
 class Dropdown extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  Logout() {
+    fire.auth().signOut();
+  }
   render() {
     return (
       <div className="dropdown">
         <button className="dropbtn">Dropdown</button>
         <div className="dropdown-content">
-          <a href="about">about</a>
+          <button onClick={this.Logout}>Logout</button>
         </div>
       </div>
     );

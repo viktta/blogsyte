@@ -1,3 +1,10 @@
 body {
-    background-color: #252529;
+  background-color: #252529;
+}
+
+.Login-page {
+  position: relative;
+  text-align: center;
+  right: 50px;
+  top: 400px;
 }

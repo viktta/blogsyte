@@ -1,12 +1,15 @@
-import app from "firebase/app";
+import firebase from "firebase";
 
-const config = {
-  apiKey: "AIzaSyAuJUj6oNDM0b0qADjWbjX6GVu382KrPLw",
-  authDomain: "blogsyte.firebaseapp.com",
-  databaseURL: "https://blogsyte.firebaseio.com",
-  projectId: "blogsyte",
-  storageBucket: "blogsyte.appspot.com",
-  messagingSenderId: "420786876035",
-  appId: "1:420786876035:web:282bc8986514b49691b5b6",
-  measurementId: "G-KXTYCD68XH"
+var firebaseConfig = {
+  apiKey: "AIzaSyA8a0djHeSyPbYfE_PFBbWTnA2M5ijhCvo",
+  authDomain: "blogsyte-5980f.firebaseapp.com",
+  databaseURL: "https://blogsyte-5980f.firebaseio.com",
+  projectId: "blogsyte-5980f",
+  storageBucket: "blogsyte-5980f.appspot.com",
+  messagingSenderId: "102149390376",
+  appId: "1:102149390376:web:eb9b7ea6ed6ecb0f39751d"
 };
+
+const fire = firebase.initializeApp(firebaseConfig);
+
+export default fire;

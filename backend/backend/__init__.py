@@ -1,2 +1,0 @@
-def Data():
-    return None
