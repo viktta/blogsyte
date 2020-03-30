@@ -1,14 +1,24 @@
-from django.urls import include, path
-from rest_framework import routers
-from django.contrib import admin
-from Data import views
+from django.conf.urls import url, include
+from Data.models import Posts
+from rest_framework import routers, serializers, viewsets
+# Serializers define the API representation.
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Posts
+        fields = ['post','author']
 
+# ViewSets define the view behavior.
+class PostsViewSet(viewsets.ModelViewSet):
+    queryset = Posts.objects.all()
+    serializer_class = UserSerializer
+
+# Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
-router.register(r'posts', views.PostsViewSet)
+router.register(r'posts', PostsViewSet)
 
-
+# Wire up our API using automatic URL routing.
+# Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    url(r'^', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]

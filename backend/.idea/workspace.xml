@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90d0f5b-f761-4f2a-8395-6b20b17f3484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/aleor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/aleor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/migrations/0002_auto_20200323_0427.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.4.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref-3.2.5.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref-3.2.5.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref-3.2.5.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref-3.2.5.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref-3.2.5.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref-3.2.5.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref/sync.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/asgiref/sync.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/sqlparse-0.3.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Components/Dropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/Dropdown.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/Components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/Components/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/Components/fetch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/fetch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Style/Login_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Style/Login_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/config/fire.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/config/fire.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +49,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Inspections" timestamp="1585560231180">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Inspections/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585560231180" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1585471418226">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -85,9 +61,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585471622635" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585471539103">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585600272671">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585471539103" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585600272671" />
   </component>
 </project>

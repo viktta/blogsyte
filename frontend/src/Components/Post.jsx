@@ -3,20 +3,9 @@ import axios from "axios";
 
 class Post extends Component {
   state = {
-    todos: []
+    post: "",
+    author: ""
   };
-
-  async componentDidMount() {
-    try {
-      const res = await fetch("http://127.0.0.1:8000/posts/");
-      const todos = await res.json();
-      this.setState({
-        todos
-      });
-    } catch (e) {
-      console.log(e);
-    }
-  }
 
   changeHandler = e => {
     this.setState({ [e.target.name]: e.target.value });
@@ -25,25 +14,32 @@ class Post extends Component {
   submitHandler = e => {
     e.preventDefault();
     console.log(this.state);
-    axios.post("http://127.0.0.1:8000/posts/", this.state);
+    axios
+      .post("http://127.0.0.1:8000/posts/", this.state)
+      .then(response => {
+        console.log(response);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   };
 
   render() {
-    const { Post, Author } = this.state;
+    const { post, author } = this.state;
     return (
       <div>
         <form onSubmit={this.submitHandler}>
           <input
             type="text"
             name="post"
-            value={Post}
+            value={post}
             onChange={this.changeHandler}
           ></input>
           <br /> <br />
           <input
             type="text"
             name="author"
-            value={Author}
+            value={author}
             onChange={this.changeHandler}
           ></input>
           <button type="submit">Post</button>
