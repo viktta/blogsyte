@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c90d0f5b-f761-4f2a-8395-6b20b17f3484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Components/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/Components/fetch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Components/fetch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +58,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585471622635" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585600272671">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585600840115">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585600272671" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585600840115" />
   </component>
 </project>
